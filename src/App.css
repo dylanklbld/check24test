@@ -1,9 +1,14 @@
 .App {
   text-align: center;
+  background-color: gray;
 }
 
 .App-logo {
   height: 40vmin;
+}
+
+body {
+  background-color: gray;
 }
 
 .App-header {
@@ -19,4 +24,38 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.grid-wrapper {
+  background-color: gray;
+}
+
+.grid-area {
+  margin: auto;
+  width: 80vh;
+  height: 80vh;
+  background-color: white;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  position: relative;
+}
+
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: gold;
 }

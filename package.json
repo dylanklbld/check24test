@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-testing-library": "^8.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,6 +27,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "<rootDir>/.history"
     ]
   }
 }
