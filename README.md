@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Problem description is here https://github.com/dylanklbld/check24test/blob/master/problem-description.pdf
+
+
 ## Available Scripts
 
 In the project directory, you can run:
